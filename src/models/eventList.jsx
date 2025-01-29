@@ -1,0 +1,55 @@
+let events = [
+  {
+    key: 1,
+    timelineName:"El señor de los anillos",
+    title: "La batalla de Isengard!",
+    preview: "/timeLines-images/isengardBattle.jpg",
+    content:"Empujados por Merry y Pippin, los Ents, seguidos por los Ucornos, invadieron el Anillo de Isengard desde el Bosque de Fangorn. Isengard era defendidos por Orcos y Hombres dirigidos por el Mago Blanco Saruman. Los atacantes rodearon Isengard, destruyeron sus puertas, derrumbaron sus muros y rompieron la presa que Saruman había construido, cuya agua inundó la Torre y los pozos que se utilizaban para crear sus máquinas de guerra.",
+    link: "/events/isengardBattle",
+    timeline: '1',
+  },
+  {
+    key: 2,
+    title: "La batalla del abismo de Helm!",
+    preview: "/timeLines-images/helmBattle.jpg",
+    content: "La Batalla del Abismo de Helm es realmente titulada Batalla de Hornburg, y tuvo lugar en la fortaleza de la montaña de Horburg, en la fortaleza llamada Abismo de Helm, en Rohan. Tuvo lugar durante la noche del 3 al 4 de marzo del 3019 (T.E.) entre los Uruk-hai enviados por Saruman y la defensa de los Rohirrim liderados por Théoden y Erkenbrand.",
+    link: "/events/HelmBattle",
+    timeline: '1',
+  },
+  {
+    key: 3,
+    timelineName:"Segunda Guerra mundial",
+    title: "Desembarco de Normandia",
+    preview: "/timeLines-images/diaD.jpg",
+    content: "La batalla de Normandía, llamada en clave operación Overlord, fue la operación militar efectuada por los Aliados durante la Segunda Guerra Mundial que culminó con la liberación de los territorios de Europa occidental ocupados por la Alemania nazi. La operación anfibia dio comienzo el 6 de junio de 1944, más conocido como el Día D, con el desembarco de Normandía; el conjunto de las operaciones navales recibió el nombre clave de operación Neptuno. Un asalto aerotransportado llevado a cabo por mil doscientas aeronaves precedió al desembarco anfibio, que involucró a 5000 barcos.",
+    link: "/events/D_DAY",
+    timeline: '2',
+  },
+  {
+    key: 4,
+    title: "Batalla de las Ardenas",
+    preview: "/timeLines-images/ardenas.jpg",
+    content: "La batalla de las Ardenas (en alemán: Ardennenoffensive; en inglés: Battle of the Bulge) fue una gran ofensiva alemana lanzada a finales de la Segunda Guerra Mundial, librada desde el 16 de diciembre de 1944 hasta el 25 de enero de 1945, a través de los densos bosques y montañas de la región de las Ardenas de Bélgica —y más concretamente de Valonia, de ahí su nombre en francés, Bataille des Ardennes—, Francia y Luxemburgo en el frente occidental. La Wehrmacht dio a la ofensiva el nombre en clave Operación Wacht am Rhein por el himno patriótico alemán Die Wacht am Rhein.",
+    link: "/events/ardennesForest",
+    timeline: '2',
+  },
+  {
+    key: 5,
+    timelineName:"Imperio Otomano",
+    title: "Batalla de Kosovo",
+    preview: "/timeLines-images/BaiazethIIII.jpg",
+    content: "con victoria frente al Principado de Serbia, que se convertirá en estado vasallo. La mayor parte de Serbia es conquistada. Murad I pierde la vida en esta guerra.1​2​ Ascenso al trono de Bayezid I.",
+    link: "",
+    timeline: '3',
+  },
+  {
+    key: 6,
+    title: "Batalla de Bafea ",
+    preview: "/timeLines-images/BattleOfBafea.jpg",
+    content: "	La primera guerra entre otomanos y bizantinos, con derrota bizantina en las afueras de Nicomedia. Después los otomanos capturaron una serie de pequeños fuertes, devastando los alrededores de Nicomedia, Nicea y Brusa; Nicomedia, sin embargo, no cayó en sus manos hasta 1337. Miles de refugiados marcharon al oeste hacia Constantinopla.",
+    link: "",
+    timeline: '3',
+  },
+];
+
+export default events;

@@ -1,0 +1,15 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; /* Mantiene su flujo relativo */
+  transform: translateY(4em); 
+}
+
+.title{
+    display: inline-block;
+    flex: 1;
+    white-space: break-spaces;
+    text-overflow: ellipsis
+}
+

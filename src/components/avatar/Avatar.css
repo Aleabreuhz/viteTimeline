@@ -1,0 +1,8 @@
+.avatarImg img{
+  border-radius: 10em;
+  display: flex;
+  
+}
+.ant-form-item .ant-form-item-label >label {
+  color: black;
+}

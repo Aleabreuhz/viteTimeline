@@ -1,0 +1,74 @@
+/* .timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+.card-timeLine {
+  background-color: white;
+  border-radius: 12em;
+  text-align: center;
+  margin-top: -6em;
+  visibility: hidden;
+  transition: opacity 1s ease;
+  width: 16em;
+  height: 8em;
+}
+
+.card-content {
+  margin-top: 1vh;
+  text-align: center;
+  height: 3em;
+  color: rgb(0, 0, 0);
+  font-size:16px ;
+  transform: translatey(10px);
+  font-family: "League Spartan";
+  margin: 12px;
+}
+
+.card-timeLine.card-timeLine-visible {
+  visibility: visible;
+  z-index: 10000;
+  position: relative;
+}
+
+.card-name {
+  background-color: white;
+  width: 10em;
+  height: 40px;
+  transform: translate(1px, 23px);
+  border-radius: 10em;
+  z-index: 1;
+  text-align: center;
+  font-family: "League Spartan";
+}
+
+.card-name span {
+  margin: 10px;
+  font-size: small;
+  font-family: "League Spartan";
+}
+
+.card-img {
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  z-index: 100;
+  position: relative;
+  transition: filter 0.5s ease; /* Transición suave para el efecto */
+  height: 9em;
+  width: 15em;
+  border-radius: 2em;
+}
+.card-img.blurred {
+  filter: blur(5px); /* Efecto de desenfoque */
+  /* Opcional: Amplía un poco la imagen para un mejor efecto */
+}
+
+.showMore {
+ width: 1em;
+ height: 10vh;
+ 
+}

@@ -1,0 +1,82 @@
+body,
+html {
+  margin: 0;
+  box-sizing: border-box;
+  background: linear-gradient(
+    180deg,
+    rgba(67, 110, 203) 0%,
+    rgba(166, 79, 196, 0.9) 91%
+  );
+}
+
+.namePage {
+  margin-bottom: 22em;
+  position: absolute;
+  color: white;
+  font-size: 2em;
+  font-family: "League Spartan";
+}
+
+.custom-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.custom-form {
+  width: 400px;
+  padding: 30px;
+  background-color: #ffffff00;
+  border-radius: 10px;
+}
+
+.custom-form .ant-form-item-label {
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+  font-family: "League Spartan";
+  
+}
+.ant-form-item .ant-form-item-label >label{
+  color: white;
+}
+.custom-form .ant-form-item {
+  margin-bottom: 20px;
+}
+
+.form-select {
+  width: 100%;
+}
+
+.form-input {
+  width: 100%;
+}
+
+.form-rangepicker {
+  width: 100%;
+}
+
+.form-textarea {
+  width: 100%;
+}
+
+.form-submit-button {
+  width: 100%;
+  background-color: #1890ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form-submit-button:hover {
+  background-color: #40a9ff;
+}
+
+.form-upload {
+  display: flex;
+  justify-content: center;
+}

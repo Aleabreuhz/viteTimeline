@@ -1,0 +1,140 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  background: linear-gradient(
+    180deg,
+    rgba(67, 110, 203) 0%,
+    rgba(115, 45, 138, 0.9) 91%
+  );
+}
+.events-details-content {
+  height: 82vh;
+  gap: 2em;
+  overflow: scroll;
+  margin-bottom: 10px;
+}
+
+.timelineName {
+  /* background-color: black; */
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-family: "League Spartan";
+}
+
+.eventPage {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.events-details-preview img {
+  height: 19vh;
+  width: 60vw;
+  border-radius: 50px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.containerEvent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.eventTitle {
+  text-align: center;
+  background-color: white;
+  border-radius: 5em;
+  overflow: visible;
+  padding: 10px;
+  display: inline;
+  margin-left: 13px;
+  font-family: "League Spartan";
+}
+
+.dateBar{
+  background-color: white;
+  color:transparent;
+  width: 3px;
+  height: 30em;
+  position: absolute;
+  margin-top: 70px;
+  position: absolute;
+  right: 25px;
+}
+
+
+.containerContent {
+  margin-left: 5px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  background-color: white;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 5em;
+  text-align: center;
+  font-size: 16px;
+  font-family: "League Spartan";
+
+}
+@media only screen and (min-width: 440px) {
+  .events-details-preview img {
+    height: 25vh;
+    width: 60vw;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .events-details-preview img {
+    height: 35vh;
+    width: 50vw;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .events-details-preview img {
+    height: 45vh;
+    width: 50vw;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .events-details-preview img {
+    height: 42vh;
+    width: 38vw;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .events-details-preview img {
+    height: 44vh;
+    width: 37vw;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+}
+

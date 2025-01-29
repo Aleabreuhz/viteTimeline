@@ -1,0 +1,85 @@
+.select_buttons {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 95%;
+  height: 4em;
+  border-radius: 14px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.button_event {
+  padding-inline-start: 0px;
+  padding-inline-end: 0px;
+  outline: none;
+  position: relative;
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  user-select: none;
+  touch-action: manipulation;
+  color: rgb(255, 255, 255);
+  font-family: "League Spartan";
+
+}
+.button_quiz {
+  padding-inline-start: 0px;
+  padding-inline-end: 0px;
+  outline: none;
+  position: relative;
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  background: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  user-select: none;
+  touch-action: manipulation;
+  color: rgb(255, 255, 255);
+  font-family: "League Spartan";
+
+}
+.button_timeline {
+  padding-inline-start: 0px;
+  padding-inline-end: 0px;
+  outline: none;
+  position: relative;
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  background: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  user-select: none;
+  touch-action: manipulation;
+  color: rgb(255, 255, 255);
+  font-family: "League Spartan";
+
+}
+
+.button_quit{
+background-color: rgba(255, 255, 255, 0);
+}

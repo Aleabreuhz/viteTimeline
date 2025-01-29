@@ -1,0 +1,49 @@
+body,
+html {
+  margin: 0;
+  box-sizing: border-box;
+  background: linear-gradient(
+    180deg,
+    rgba(67, 110, 203) 0%,
+    rgba(115, 45, 138, 0.9) 91%
+  );
+}    
+.namePage1 {
+    margin-bottom: 11em;
+    position: absolute;
+    color: white;
+    font-size: 3em;
+    font-family: "League Spartan";
+  }
+
+.question-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .question-form {
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .answers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    background-color: #4caf50;
+    border: none;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  

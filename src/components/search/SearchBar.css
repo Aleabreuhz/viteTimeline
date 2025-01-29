@@ -1,0 +1,34 @@
+/* Estilo general para el contenedor */
+
+.search_Bar {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+  z-index: 1;
+}
+
+/* Estilo para el componente de búsqueda */
+.ant-input {
+  /* width: 300px; */
+  /* border-radius: 10px; */
+  /* border: 1px solid #000000; */
+  border-radius: 20px;
+}
+
+/* Agregar estilos personalizados al contenedor de "Space" */
+.space-container {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.anticon {
+  color: rgb(255, 255, 255);
+}
+
+/* Cambiar el color del botón de búsqueda */
+.ant-input-search-button {
+  border-radius: 20px;
+  background-color: transparent;
+}
