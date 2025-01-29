@@ -3,7 +3,7 @@ import { Form, Input, Button } from "antd";
 import "./CreateQuiz.css";
 import BarMenu from "../../components/barMenu/BarMenu";
 
-const CreateQuiz = () => {
+function CreateQuiz  () {
   const onFinish = (values) => {
     console.log("Form values:", values);
   };

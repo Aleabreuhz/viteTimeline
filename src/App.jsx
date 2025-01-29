@@ -5,8 +5,9 @@ import Timelines from './pages/Timelines/Timelines';
 import EditCreate from './pages/editCreate/editCreate';
 import EventsTemplate from './components/eventsTemplate/eventsTemplate';
 import CreateTimeline from './pages/createTimeline/CreateTimeline'
-import CreateQuiz from "./pages/createQuiz/CreateQuiz";
 import "@fontsource/league-spartan";
+import CreateQuiz from './pages/createQuiz/CreateQuiz';
+
 const App = () => {
   return (
     <BrowserRouter>

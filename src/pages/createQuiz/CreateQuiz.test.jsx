@@ -1,19 +1,21 @@
-import { render, screen, fireEvent, waitFor,expect ,test ,describe } from '@testing-library/react';
+import { render, screen, fireEvent, waitFor } from '@testing-library/react';
+import { test, describe } from 'vitest';
 import userEvent from '@testing-library/user-event';
-// import QuestionForm from './CreateQuiz'; // Ajusta la ruta según la estructura de tu proyecto
-import '@testing-library/jest-dom/extend-expect';
-import {jest} from '@jest/globals'
 import React from "react";
-import QuestionForm from './CreateQuiz';
+import { MemoryRouter } from 'react-router-dom';
+import CreateQuiz from './CreateQuiz';
 
-
-describe('QuestionForm', () => {
-  test('should submit form and log the correct values', async () => {
+describe('CreateQuiz', () => {
+  test.only('should submit form and log the correct values', async () => {
     // Creamos un mock para la función onFinish
-    const mockOnFinish = jest.fn();
+    const mockOnFinish = vi.fn(); // Usamos 'vi.fn()' en lugar de 'jest.fn()'
 
-    // Renderizamos el formulario
-    render(<QuestionForm />);
+    // Renderizamos el formulario dentro de un MemoryRouter
+    render(
+      <MemoryRouter>
+        <CreateQuiz onFinish={mockOnFinish} />
+      </MemoryRouter>
+    ); // Asegúrate de pasar 'mockOnFinish' como prop
 
     // Obtenemos los inputs y el botón
     const questionInput = screen.getByLabelText(/Question/i);
