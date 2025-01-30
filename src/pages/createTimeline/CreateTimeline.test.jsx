@@ -1,9 +1,9 @@
 import React from "react";
 import { render, screen, fireEvent, act, describe, beforeEach, test, expect } from "@testing-library/react";
 import { message } from "antd";
-import CreateTimeline from './pages/createTimeline/CreateTimeline'
+import CreateTimeline from './CreateTimeline'
 import {jest} from '@jest/globals'
-import 'whatwg-fetch'
+// import 'whatwg-fetch'
 //import React from "react";
 
 // Mock de Ant Design message
